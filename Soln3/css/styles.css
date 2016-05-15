@@ -1,8 +1,14 @@
-#nav a {
-	color: #ff0000;
-	text-align: center;
+
+#dropper
+ {
+	background-color: red;
 }
 
-#navbar-brand {
+#filler {
+	height: 1000px;
+	background-color: blue;
+}
+
+h1 {
 	text-align: center;
 }

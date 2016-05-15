@@ -14,9 +14,10 @@
 
     <title>Website Design Soln3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 <body>
+<header>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -27,24 +28,33 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Food, LLC</a>
-      </div>
+        <a class="navbar-brand" id="muck" href="#">Food, LLC</a>
+      </div> <!-- navbar-header -->
 
       <!-- Create dropdown menu for toggle-->
       <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="collapsable-nav">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Chicken<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Beef</a></li>
-        <li><a href="#">Sushi</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
+      <div class="collapse navbar-collapse" id="collapsable-nav">
+        <ul class="nav navbar-nav" id="dropper">
+          <li class="active"><a href="#" id="dropper">Chicken<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div><!-- navbar-collapse -->
     </div> <!--container-fluid-->
-  </nav>  
+  </nav> 
+</header>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
+  <!-- start of webpage body  -->
+  <h1 class="text-center">Our Menu</h1>
+
+    <div class="container">
+      <p id="filler" class="col-xs-12">Twinkle, twinkle little star</p>
+    </div> <!-- container -->
+
 </body>
 </html>
